@@ -77,7 +77,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your e-mail " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WZe-h6-McA">
                                 <rect key="frame" x="37.5" y="317" width="300" height="30"/>
@@ -105,7 +105,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="signInTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="292-Nv-xaO"/>
+                                    <action selector="signInTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yY2-bY-7Mh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -131,6 +131,10 @@
                             <constraint firstItem="WZe-h6-McA" firstAttribute="top" secondItem="U83-38-QnL" secondAttribute="bottom" constant="20" id="zsC-Ja-QTO"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="WZe-h6-McA" id="Umx-2O-u3n"/>
+                        <outlet property="pwdField" destination="QnE-Xz-yTd" id="bC9-el-SxC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

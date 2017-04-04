@@ -12,6 +12,11 @@ import FBSDKLoginKit
 
 class SignInVC: UIViewController {
 
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var pwdField: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -32,7 +37,7 @@ class SignInVC: UIViewController {
             } else if result?.isCancelled == true {
                 print("User cancelled Facebook authentication")
             } else {
-                print("JSuccessfully authenticated with Facebook")
+                print("Successfully authenticated with Facebook")
                 let credential = FIRFacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
                 self.firebaseAuth(credential)
             }
@@ -49,6 +54,27 @@ class SignInVC: UIViewController {
                 }
         })
     }
+    
+    @IBAction func signInTapped(_ sender: Any) {
+        if let email = emailField.text, let pwd = pwdField.text {
+            FIRAuth.auth()?.signIn(withEmail: email, password: pwd, completion: { (user, error) in
+                if error == nil {
+                    
+                    print("Email user authenticated with Firebase")
 
+                } else {
+                    FIRAuth.auth()?.createUser(withEmail: email, password: pwd, completion: { (user, error) in
+                        if error != nil {
+                            print("Unable to authenticate with Firebase using email")
+                        } else {
+                            print("Successfully authenticated with Firebase")
+                          
+                        }
+                    })
+                }
+            })
+        }
+    }
+ 
 
 }
