@@ -14,6 +14,15 @@
 		522241D11E92E70D0074489F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522241CF1E92E70D0074489F /* LaunchScreen.storyboard */; };
 		522241D91E92E78E0074489F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 522241D81E92E78E0074489F /* GoogleService-Info.plist */; };
 		522241DE1E939E690074489F /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522241DD1E939E690074489F /* CircleButton.swift */; };
+		522241E11E93D8AB0074489F /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522241E01E93D8AB0074489F /* FeedVC.swift */; };
+		522241E41E93DA580074489F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522241E31E93DA580074489F /* Constants.swift */; };
+		522241E71E93DB2E0074489F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522241E61E93DB2E0074489F /* DataService.swift */; };
+		522241E91E93DD980074489F /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522241E81E93DD980074489F /* CircleView.swift */; };
+		522241EB1E93DE260074489F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522241EA1E93DE260074489F /* Post.swift */; };
+		522241ED1E93DE930074489F /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522241EC1E93DE930074489F /* FancyField.swift */; };
+		522241EF1E93DF1A0074489F /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522241EE1E93DF1A0074489F /* PostCell.swift */; };
+		522241F11E93E7D60074489F /* MaterailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522241F01E93E7D60074489F /* MaterailView.swift */; };
+		522241F31E9401CE0074489F /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522241F21E9401CE0074489F /* ProfileVC.swift */; };
 		D74A9AA1DB031193253EF9E2 /* Pods_SocialMediaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F774BFE611F3307ED3181A /* Pods_SocialMediaApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +37,15 @@
 		522241D81E92E78E0074489F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		522241DD1E939E690074489F /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		522241DF1E93C03E0074489F /* SocialMediaApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialMediaApp.entitlements; sourceTree = "<group>"; };
+		522241E01E93D8AB0074489F /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		522241E31E93DA580074489F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		522241E61E93DB2E0074489F /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		522241E81E93DD980074489F /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		522241EA1E93DE260074489F /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		522241EC1E93DE930074489F /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		522241EE1E93DF1A0074489F /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		522241F01E93E7D60074489F /* MaterailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterailView.swift; sourceTree = "<group>"; };
+		522241F21E9401CE0074489F /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		A650BC2E2D7FD26FD7F2800A /* Pods-SocialMediaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialMediaApp/Pods-SocialMediaApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F2F774BFE611F3307ED3181A /* Pods_SocialMediaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38AFE36023EE039C439DD81 /* Pods-SocialMediaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialMediaApp/Pods-SocialMediaApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +84,8 @@
 		522241C51E92E70D0074489F /* SocialMediaApp */ = {
 			isa = PBXGroup;
 			children = (
+				522241E51E93DB170074489F /* Services */,
+				522241E21E93DA420074489F /* Util */,
 				522241DF1E93C03E0074489F /* SocialMediaApp.entitlements */,
 				522241DB1E9391B00074489F /* View */,
 				522241DA1E9391A90074489F /* Model */,
@@ -83,6 +103,7 @@
 		522241DA1E9391A90074489F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				522241EA1E93DE260074489F /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -91,6 +112,10 @@
 			isa = PBXGroup;
 			children = (
 				522241DD1E939E690074489F /* CircleButton.swift */,
+				522241E81E93DD980074489F /* CircleView.swift */,
+				522241EC1E93DE930074489F /* FancyField.swift */,
+				522241EE1E93DF1A0074489F /* PostCell.swift */,
+				522241F01E93E7D60074489F /* MaterailView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -99,8 +124,26 @@
 			isa = PBXGroup;
 			children = (
 				522241C81E92E70D0074489F /* SignInVC.swift */,
+				522241E01E93D8AB0074489F /* FeedVC.swift */,
+				522241F21E9401CE0074489F /* ProfileVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		522241E21E93DA420074489F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				522241E31E93DA580074489F /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		522241E51E93DB170074489F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				522241E61E93DB2E0074489F /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		994B86AF4967BF509B4AE731 /* Pods */ = {
@@ -249,9 +292,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522241F31E9401CE0074489F /* ProfileVC.swift in Sources */,
+				522241ED1E93DE930074489F /* FancyField.swift in Sources */,
+				522241E41E93DA580074489F /* Constants.swift in Sources */,
+				522241E11E93D8AB0074489F /* FeedVC.swift in Sources */,
 				522241DE1E939E690074489F /* CircleButton.swift in Sources */,
+				522241EB1E93DE260074489F /* Post.swift in Sources */,
+				522241F11E93E7D60074489F /* MaterailView.swift in Sources */,
+				522241E71E93DB2E0074489F /* DataService.swift in Sources */,
 				522241C91E92E70D0074489F /* SignInVC.swift in Sources */,
+				522241E91E93DD980074489F /* CircleView.swift in Sources */,
 				522241C71E92E70D0074489F /* AppDelegate.swift in Sources */,
+				522241EF1E93DF1A0074489F /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
